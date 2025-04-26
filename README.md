@@ -25,6 +25,10 @@ Watch the complete walkthrough and demo of AccuLedger:
 👉 [https://krmangalameduin-my.sharepoint.com/:v:/g/personal/vandna_batra_krmangalam_edu_in/ETu7L_Cekf9MvH3kXFysuTUB6mcOWhTUKRJG2uD7EmrYIA?e=JU1Wxx]
 
 
+PPT Presenation:
+For PPT Click Here [https://krmangalameduin-my.sharepoint.com/:p:/g/personal/2301010260_krmu_edu_in/EbgT3ddQlGdAsqiOaV78a6sB0Cxz9Pf0_FG0qNaHBd6BPA?e=5fg70l]
+
+
 
 ⚙️ Technologies Used
 Frontend:
