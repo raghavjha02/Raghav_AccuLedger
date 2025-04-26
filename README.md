@@ -22,7 +22,7 @@ It allows users to record transactions, generate invoices, and view financial su
 
 🎥 Video Presentation :
 Watch the complete walkthrough and demo of AccuLedger:
-👉 [https://krmangalameduin-my.sharepoint.com/:v:/g/personal/vandna_batra_krmangalam_edu_in/ETu7L_Cekf9MvH3kXFysuTUB6mcOWhTUKRJG2uD7EmrYIA?e=JU1Wxx]
+👉 [https://krmangalameduin-my.sharepoint.com/:v:/g/personal/2301010260_krmu_edu_in/EdXhPgaRFNRDgkDBum3wi6cB9hIK6797OgUwJqxPTW2z4g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=daRo7D]
 
 
 PPT Presenation:
