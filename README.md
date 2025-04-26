@@ -1,5 +1,7 @@
 # Raghav_AccuLedger
 "A web-based accounting system for managing income, expenses, and invoices."
+
+
 AccuLedger - Web-Based Accounting System
 A simple, powerful, and efficient web-based accounting platform designed to help individuals and small businesses manage their income, expenses, and invoices with ease.
 
@@ -26,7 +28,7 @@ It allows users to record transactions, generate invoices, and view financial su
 Watch the complete walkthrough and demo of AccuLedger:
 👉 [https://krmangalameduin-my.sharepoint.com/:v:/g/personal/vandna_batra_krmangalam_edu_in/ETu7L_Cekf9MvH3kXFysuTUB6mcOWhTUKRJG2uD7EmrYIA?e=JU1Wxx]
 
-(Tip: If you don't have a video yet, you can leave this section for now and update it later.)
+
 
 ⚙️ Technologies Used
 Frontend:
@@ -65,31 +67,10 @@ Feature	Description
 🗓️ Date Filtering	View transactions based on specific date ranges
 🎯 Budget Planning	Set budgets and monitor financial goals easily
 📱 Responsive UI	Optimized for desktop and mobile devices
-🛠️ How to Run Locally
-Clone the repository:
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/acculedger.git
-Install XAMPP and start Apache & MySQL services.
-
-Place the project folder inside the htdocs directory (XAMPP).
-
-Create a MySQL database (import the provided .sql file if available).
-
-Configure database settings inside the PHP files (like db_connect.php).
-
-Access the project via:
-
-arduino
-Copy
-Edit
-http://localhost/acculedger
 📩 Contact
 For any queries or contributions:
 Raghav Kumar Jha
-📧 [Your Email]
-🔗 [LinkedIn Profile] (Optional)
+🔗 [www.linkedin.com/in/raghav-k-a75586290]
 
 🧡 Thank you for visiting AccuLedger!
