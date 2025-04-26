@@ -24,7 +24,7 @@ It allows users to record transactions, generate invoices, and view financial su
 
 🎥 Video Presentation
 Watch the complete walkthrough and demo of AccuLedger:
-👉 [Insert Video Link Here]
+👉 [https://krmangalameduin-my.sharepoint.com/:v:/g/personal/vandna_batra_krmangalam_edu_in/ETu7L_Cekf9MvH3kXFysuTUB6mcOWhTUKRJG2uD7EmrYIA?e=JU1Wxx]
 
 (Tip: If you don't have a video yet, you can leave this section for now and update it later.)
 
