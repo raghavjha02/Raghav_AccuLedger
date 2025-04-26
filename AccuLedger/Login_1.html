@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - AccuLedger</title>
+    <link rel="stylesheet" href="Login_style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo">AccuLedger</h2>
+        <nav class="navigation">
+            <a href="https://www.chatbase.co/chatbot-iframe/VhurV5wKTIgvHKrQTC8Hr">AccuLedger Bot</a>
+            <a href="home.html">Home</a>
+            <a href="Dashboard_2.html">Dashboard</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="/login" method="POST">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" name="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" name="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label class="remember-me">
+                        <input type="checkbox"> Remember me
+                    </label>
+                    <a class="forgot-password" href="forgot_password.html">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+
+                <div class="signup reg">
+                    <p>Don't have an account?  
+                        <a href="Sign_Up.html" class="register-link">Sign Up</a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+        window.embeddedChatbotConfig = {
+            chatbotId: "VhurV5wKTIgvHKrQTC8Hr",
+            domain: "www.chatbase.co"
+        }
+    </script>
+    <script src="https://www.chatbase.co/embed.min.js" chatbotId="VhurV5wKTIgvHKrQTC8Hr" domain="www.chatbase.co" defer></script>
+    <script>
+        document.querySelector("form").addEventListener("submit", function(e) {
+            e.preventDefault();
+    
+            const email = this.email.value;
+            const password = this.password.value;
+    
+            const user = JSON.parse(localStorage.getItem("acculedger_user"));
+    
+            if (!user) {
+                alert("No user found. Please sign up first.");
+                return;
+            }
+    
+            if (email === user.email && password === user.password) {
+                alert("Login Successful! Welcome " + user.name);
+                window.location.href = "Dashboard_2.html"; // redirect to dashboard
+            } else {
+                alert("Invalid email or password.");
+            }
+        });
+    </script>
+    
+</body>
+</html>

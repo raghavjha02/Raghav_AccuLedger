@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccuLedger Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* General Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: url('background_login.png') no-repeat;
+            background-size: cover;
+            color: #000;
+            display: flex;
+            min-height: 100vh;
+            backdrop-filter: blur(10px);
+            flex-direction: column;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 280px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            padding: 2rem;
+            color: #000;
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+        }
+
+        .sidebar h2 {
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+            font-weight: bold;
+        }
+
+        .sidebar ul {
+            list-style: none;
+        }
+
+        .sidebar li {
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #000;
+            font-size: 1.2rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .sidebar a:hover {
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 0.5rem;
+            border-radius: 8px;
+        }
+
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            padding: 2rem;
+            margin-left: 300px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .main-content h1 {
+            font-size: 2rem;
+            color: #000;
+            margin-left: auto;
+        }
+
+        .top-left-links {
+            display: flex;
+            gap: 2rem;
+            font-size: 1.2rem;
+        }
+
+        .top-left-links a {
+            text-decoration: none;
+            color: #000000;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            position: relative;
+        }
+
+        .top-left-links a::after {
+            content: "";
+            display: block;
+            height: 2px;
+            width: 0;
+            background: #ffffff;
+            transition: width 0.3s ease;
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+        }
+
+        .top-left-links a:hover::after {
+            width: 100%;
+        }
+
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 2rem 0 300px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            padding: 2rem;
+            border-radius: 12px;
+            color: #000;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+
+        .card h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .card p {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        /* Transactions Table */
+        .transactions {
+            margin: 3rem 2rem 0 300px;
+            color: #000;
+        }
+
+        .transactions h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+        }
+
+        th {
+            background: rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>AccuLedger</h2>
+        <ul>
+            <li><a href="income.html">💰 Income</a></li>
+            <li><a href="expenses.html">💸 Expenses</a></li>
+            <li><a href="invoices.html">🧾 Invoices</a></li>
+            <li><a href="reports.html">📈 Reports</a></li>
+            <li><a href="settings.html">⚙️ Settings</a></li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="top-left-links">
+            <a href="notifications.html">🔔 Notifications</a>
+            <a href="profile.html">👤 Profile</a>
+        </div>
+        <h1>Dashboard</h1>
+    </div>
+
+    <div class="dashboard">
+        <div class="card">
+            <h3>Total Balance</h3>
+            <p>₹5,00,000</p>
+        </div>
+        <div class="card">
+            <h3>Income (This Month)</h3>
+            <p>₹8,00,500</p>
+        </div>
+        <div class="card">
+            <h3>Expenses (This Month)</h3>
+            <p>₹2,00,300</p>
+        </div>
+    </div>
+
+    <div class="transactions">
+        <h2>Recent Transactions</h2>
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Amount</th>
+            </tr>
+            <tr>
+                <td>Feb 25, 2025</td>
+                <td>Client Payment</td>
+                <td>+ ₹1,00,200</td>
+            </tr>
+            <tr>
+                <td>Feb 20, 2025</td>
+                <td>Office Rent</td>
+                <td>- ₹50,000</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
