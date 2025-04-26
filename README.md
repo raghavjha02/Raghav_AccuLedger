@@ -1,15 +1,11 @@
-# Raghav_AccuLedger
-"A web-based accounting system for managing income, expenses, and invoices."
-
-
 AccuLedger - Web-Based Accounting System
 A simple, powerful, and efficient web-based accounting platform designed to help individuals and small businesses manage their income, expenses, and invoices with ease.
 
-📚 Project Overview
+📚 Project Overview : 
 AccuLedger is a financial management tool focused on delivering an intuitive and reliable experience for managing personal and business finances.
 It allows users to record transactions, generate invoices, and view financial summaries, all in a clean and responsive dashboard. Built using PHP, MySQL, and modern web technologies, AccuLedger aims to streamline accounting tasks securely and efficiently.
 
-✨ Key Features
+✨ Key Features : 
 📥 Income and Expense Tracking
 
 🧾 Invoice Generation and Management
@@ -24,7 +20,7 @@ It allows users to record transactions, generate invoices, and view financial su
 
 📱 Responsive and User-Friendly Design
 
-🎥 Video Presentation
+🎥 Video Presentation :
 Watch the complete walkthrough and demo of AccuLedger:
 👉 [https://krmangalameduin-my.sharepoint.com/:v:/g/personal/vandna_batra_krmangalam_edu_in/ETu7L_Cekf9MvH3kXFysuTUB6mcOWhTUKRJG2uD7EmrYIA?e=JU1Wxx]
 
@@ -36,21 +32,13 @@ HTML5
 
 CSS3
 
-Bootstrap 5
-
 JavaScript
 
-jQuery
 
 Backend:
 PHP 8.x
 
 MySQL 8.x
-
-Libraries/Plugins:
-Font Awesome (Icons)
-
-Datepicker.js (Date Selection)
 
 Development Tools:
 Visual Studio Code (Code Editor)
@@ -68,7 +56,7 @@ Feature	Description
 🎯 Budget Planning	Set budgets and monitor financial goals easily
 📱 Responsive UI	Optimized for desktop and mobile devices
 
-📩 Contact
+📩 Contact : 
 For any queries or contributions:
 Raghav Kumar Jha
 🔗 [www.linkedin.com/in/raghav-k-a75586290]
