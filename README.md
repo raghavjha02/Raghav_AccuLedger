@@ -30,7 +30,7 @@ For PPT Click Here [https://krmangalameduin-my.sharepoint.com/:p:/g/personal/230
 
 
 For Report Click Here:
-[https://krmangalameduin-my.sharepoint.com/:b:/g/personal/2301010260_krmu_edu_in/Ef-F2BQR5_JJkn-3uxzquvUB4d2F7h_OIM9OFfXqeoGS2w?e=vrTHqh]
+[https://krmangalameduin-my.sharepoint.com/:b:/g/personal/2301010260_krmu_edu_in/EcvnJ3wtd4ZGmTXSZz0NBE8B0DIv0sOA9npNOlCHvnOBvw?e=mmFmMN]
 
 For Project Use Case & Deployment Confirmation 
 Certificate
